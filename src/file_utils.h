@@ -3,7 +3,7 @@
 
 #include <windows.h>
 
-// file_utils.h : ÆÄÀÏ ¼±ÅÃ & Æú´õ »ı¼º Á¤ÀÇ
+// file_utils.h : Ã†Ã„Ã€Ã Â¼Â±Ã…Ãƒ & Ã†ÃºÂ´Ãµ Â»Ã½Â¼Âº ÃÂ¤Ã€Ã‡
 
 BOOL OpenFileDialog(HWND hwnd, char *filename);
 void create_folder_if_not_exists();
