@@ -1,4 +1,4 @@
-# RSA-Crypto-App
+# RSA Crypto App
 
 ## 目次
 
@@ -42,7 +42,7 @@ CとOpenSSL、Win32APIを活用したRSA暗号化プログラムの開発<br>
 ✅ 暗号化ステップ<br>
 <table border="1">
 <tr>
-<td>任意のテキスト ファイルを読み込む。</td>
+<td>任意のテキストファイルを読み込む。</td>
 </tr>
 <tr>
 <td style="text-align:center;">⬇️</td>
@@ -83,7 +83,7 @@ CとOpenSSL、Win32APIを活用したRSA暗号化プログラムの開発<br>
 
 ## 改善点
 
-😥 UTF-8ファイル処理問題 - UTF-8エンコーディングを完璧に処理できず、<br>
+😥 UTF-8ファイル処理問題 ・・・ UTF-8エンコーディングを完璧に処理できず、<br>
 RSA暗号化及び復号化過程でテキストファイルを正しく読み書きする時に壊れる問題が発生する。<br>
 😊Windows APIのWideChar及びCreateFileW()(fopen()代替)、別にBase64を積極的に活用する方法を考案中。<br>
 
