@@ -4,7 +4,7 @@
 
 #define SAVE_PATH "C:\\crypt\\"
 
-// file_utils.c : 颇老 急琶 & 弃歹 积己 备泅
+// file_utils.c : 脝脛脌脧 录卤脜脙 & 脝煤麓玫 禄媒录潞 卤赂脟枚
 
 BOOL OpenFileDialog(HWND hwnd, char *filename) {
     OPENFILENAME ofn;
