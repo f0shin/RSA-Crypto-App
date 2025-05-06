@@ -129,7 +129,7 @@ C와 OpenSSL, Win32 API를 활용한 RSA 암호화 프로그램 개발<br>
 
 ## 설계 개요
 
-1️⃣ 암호화 단계
+✅ 암호화 단계
 <table border="1">
 <tr>
 <td>사용자가 임의의 text 파일을 불러옴.</td>
@@ -147,7 +147,7 @@ C와 OpenSSL, Win32 API를 활용한 RSA 암호화 프로그램 개발<br>
 
 <br>
 
-2️⃣ 복호화 단계
+✅ 복호화 단계
 <table border="1">
 <tr>
 <td>사용자가 개인 키 파일(private.pem)와 암호화된 파일(encrypted.bat)을 불러옴.</td>
