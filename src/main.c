@@ -81,7 +81,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     ShowWindow(hwnd, nCmdShow);
     UpdateWindow(hwnd);
 
-    if(GetConsoleWindow()) ShowWindow(GetConsoleWindow(), SW_HIDE); // �ڿ� �ߴ� cmdâ �����
+    if(GetConsoleWindow()) ShowWindow(GetConsoleWindow(), SW_HIDE); // ľÚżĄ śß´Â cmdĂ˘ źűąâąâ
 
     MSG msg;
     while (GetMessage(&msg, NULL, 0, 0)) {
